@@ -72,8 +72,9 @@ def facebook_callback():
     """
     client_id = '<Facebook-app-id>'
     client_secret = '<Facebook-app-secret>'
-    photo_url = 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fmango-icon&psig=AOvVaw0i02NaBf_9fricWb18ZrgG&ust=1681043126164000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCICJ8eSjmv4CFQAAAAAdAAAAABAE'
-
+    photo_url = 'https://cdn.pixabay.com/photo/2013/07/18/10/56/railroad-163518_960_720.jpg'
+    
+    
     # The authorization code returned by Facebook
     code = request.args.get('code')
 
